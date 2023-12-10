@@ -53,3 +53,4 @@ https://travistidwell.com/jsencrypt/demo/
 ```
 After you generate the private public key pair store it in different files with .key as the extension and add th files to .gitignore
 
+next() with no arguments says "just kidding, I don't actually want to handle this". It goes back in and tries to find the next route that would match.
