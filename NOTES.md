@@ -40,4 +40,6 @@ JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and s
  npm install dotenv
  
  npm install jsonwebtoken
+ 
+ npm install --save body-parser multer
 ```
