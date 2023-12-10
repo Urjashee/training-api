@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from "mongoose";
 import dotenv from 'dotenv'
+import cookieParser from 'cookie-parser';
 import {authRouter} from "./routes/auth.route.js";
 import bodyParser from 'body-parser'
 
@@ -16,6 +17,7 @@ const app = express();
 
 // for parsing application/json
 app.use(bodyParser.json());
+app.use(cookieParser())
 
 // for parsing application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));

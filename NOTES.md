@@ -41,5 +41,15 @@ JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and s
  
  npm install jsonwebtoken
  
+ npm install cookie-parser
+ 
  npm install --save body-parser multer
 ```
+
+### Generate your private public key pair using
+
+```
+https://travistidwell.com/jsencrypt/demo/
+```
+After you generate the private public key pair store it in different files with .key as the extension and add th files to .gitignore
+
