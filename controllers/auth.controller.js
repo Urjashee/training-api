@@ -16,7 +16,7 @@ export const signup = async (req, res, next) => {
         res.status(201).json('User created successfully!')
 
     } catch (err) {
-        next(errorHandler(400, err));
+        next(err);
     }
 }
 
@@ -37,7 +37,7 @@ export const signin = async (req, res, next) => {
             .json(userInfo);
 
     } catch (err) {
-        next(errorHandler(400, err));
+        next(err);
     }
 }
 export const signOut = (req, res, next) => {
