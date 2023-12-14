@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 
 dotenv.config();
 
-mongoose.connect(process.env.MONGO_URI).then(() => {
+mongoose.connect("mongodb+srv://urjashee:urjashee@cluster0.erk21bp.mongodb.net/?retryWrites=true&w=majority").then(() => {
     console.log('Connected to MongoDB!')
 }).catch((err) => {
     console.error(err)
