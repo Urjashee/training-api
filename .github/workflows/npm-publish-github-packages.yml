@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm install
 
-      - name: Build and publish to docker
+      - name: Build and publish to docker hub
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
           image: urjashee09/training-api
