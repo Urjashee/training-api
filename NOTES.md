@@ -41,3 +41,5 @@ JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and s
  
  npm install jsonwebtoken
 ```
+
+### A new pull request
